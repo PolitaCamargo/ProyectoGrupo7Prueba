@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "https://usados.casatoro.com/images/7608/290x218/bc86cb1960b71910434b3eb61d683520c9455f6c.jpg",
+    "title": "Título de la Tarjeta 1",
+    "description": "Descripción de la Tarjeta 1"
+  },
+  {
+    "id": 2,
+    "imageSrc": "https://usados.casatoro.com/images/7602/290x218/a32dd86857efd55fbf171adebde59dded4efdb5a.jpg",
+    "title": "Título de la Tarjeta 2",
+    "description": "Descripción de la Tarjeta 2"
+  },
+  {
+    "id": 3,
+    "imageSrc": "https://usados.casatoro.com/images/7425/290x218/40d5e05660a9ad16f2fe5657f6a52e603156457b.jpg",
+    "title": "Título de la Tarjeta 2",
+    "description": "Descripción de la Tarjeta 3"
+  },
+  {
+    "id": 4,
+    "imageSrc": "https://usados.casatoro.com/images/7582/290x218/e78bb3308491052953072f1a24f2a16004043334.jpg",
+    "title": "Título de la Tarjeta 4",
+    "description": "Descripción de la Tarjeta 4"
+  },
+  {
+    "id": 5,
+    "imageSrc": "https://usados.casatoro.com/images/7582/290x218/e78bb3308491052953072f1a24f2a16004043334.jpg",
+    "title": "Título de la Tarjeta 2",
+    "description": "Descripción de la Tarjeta 5"
+  },
+  {
+    "id": 6,
+    "imageSrc": "https://usados.casatoro.com/images/7955/290x218/e1aa2cbd3abef2373155304a0a8e455b8349a58d.jpg",
+    "title": "Título de la Tarjeta 2",
+    "description": "Descripción de la Tarjeta 6"
+  },
+  {
+    "id": 7,
+    "imageSrc": "https://usados.casatoro.com/images/7954/290x218/a1b843a972e34121f30f577c304ad8e95e2599e8.jpg",
+    "title": "Título de la Tarjeta 2",
+    "description": "Descripción de la Tarjeta 7"
+  },
+  {
+    "id": 8,
+    "imageSrc": "https://usados.casatoro.com/images/7958/290x218/43b0290d570eb33466d5fc0337a373b9cf2a6dc6.jpg",
+    "title": "Título de la Tarjeta 2",
+    "description": "Descripción de la Tarjeta 8"
+  },
+  {
+    "id": 9,
+    "imageSrc": "https://usados.casatoro.com/images/5892/290x218/14680f4aed452294cf1a0a39db8f770bb5698528.jpg",
+    "title": "Título de la Tarjeta 2",
+    "description": "Descripción de la Tarjeta 9"
+  },
+  {
+    "id": 10,
+    "imageSrc": "https://usados.casatoro.com/images/7954/290x218/a1b843a972e34121f30f577c304ad8e95e2599e8.jpg",
+    "title": "Título de la Tarjeta 2",
+    "description": "Descripción de la Tarjeta 10"
+  },
+  {
+    "id": 11,
+    "imageSrc": "https://usados.casatoro.com/images/7958/290x218/43b0290d570eb33466d5fc0337a373b9cf2a6dc6.jpg",
+    "title": "Título de la Tarjeta 2",
+    "description": "Descripción de la Tarjeta 11"
+  },
+  {
+    "id": 12,
+    "imageSrc": "https://usados.casatoro.com/images/7471/290x218/ddb425a4179426e64aa1af2cacba420ee728110e.jpg",
+    "title": "Título de la Tarjeta 2",
+    "description": "Descripción de la Tarjeta 12"
+  }
+]

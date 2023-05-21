@@ -5,11 +5,11 @@
   align-items: center;
   justify-content: space-between;
   top: 0;
-  left: 0;
+  left: 0px;
   width: 100%;
-  padding: 20px;
-  margin: 0;
+  padding: 14px;
   z-index: 999;
+  right: 0px;
 }
 
 .logo {
@@ -51,8 +51,23 @@
   padding: 8px 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+  margin-right: 145px;
 }
 
 .nav-button:hover {
   background-color: #f56f3a;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media only screen and (max-width: 600px) {
+  .sticky-header {
+    padding: 10px;
+  }
+
+  .nav-button {
+    margin-right: 10px;
+  }
 }
