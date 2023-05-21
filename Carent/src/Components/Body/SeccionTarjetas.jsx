@@ -1,47 +1,43 @@
-import React from "react";
-import Card from "./Card";
+import Card from "./Cards";
+import tarjetasData from "./tarjetasData.json";
 import "./SeccionTarjetas.css";
 
 function SeccionTarjetas() {
   const numColumns = 4;
   const numCards = 12;
-  const cards = [];
 
-  // Generar un arreglo con números aleatorios únicos
-  const randomIndexes = [];
-  while (randomIndexes.length < numCards) {
-    const randomIndex = Math.floor(Math.random() * numCards);
-    if (!randomIndexes.includes(randomIndex)) {
-      randomIndexes.push(randomIndex);
-    }
-  }
+  // Obtener n tarjetas aleatorias de los datos
+  const getRandomCards = (n) => {
+    const shuffledCards = tarjetasData.sort(() => 0.5 - Math.random());
+    return shuffledCards.slice(0, n);
+  };
 
-  // Generar las tarjetas usando los números aleatorios como índices
-  for (let i = 0; i < numCards; i++) {
-    const randomIndex = randomIndexes[i];
-    const card = (
-      <Card
-        key={i}
-        imageSrc={`imagen${randomIndex + 1}.jpg`}
-        title={`Título de la Tarjeta ${randomIndex + 1}`}
-        description={`Descripción de la Tarjeta ${randomIndex + 1}`}
-      />
-    );
-    cards.push(card);
-  }
+  // Generar las tarjetas aleatorias
+  const cards = getRandomCards(numCards);
 
   // Dividir las tarjetas en columnas
   const columns = [];
   for (let i = 0; i < numColumns; i++) {
     const startIndex = i * (numCards / numColumns);
     const endIndex = startIndex + numCards / numColumns;
-    const column = <div key={i}>{cards.slice(startIndex, endIndex)}</div>;
+    const column = (
+      <div key={i} className="column">
+        {cards.slice(startIndex, endIndex).map((card) => (
+          <Card
+            key={card.id}
+            id={card.id}
+            imageSrc={card.imageSrc}
+            description={card.description}
+            price={card.price}
+          />
+        ))}
+      </div>
+    );
     columns.push(column);
   }
 
   return (
     <section>
-      <h2>Tarjetas Aleatorias</h2>
       <div className="card-columns">{columns}</div>
     </section>
   );
