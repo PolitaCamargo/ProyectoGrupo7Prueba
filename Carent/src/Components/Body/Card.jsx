@@ -10,5 +10,5 @@ function Card({ imageSrc, title, description }) {
     </div>
   );
 }
-
+/*se hace para  subir cambios para main*/
 export default Card;
