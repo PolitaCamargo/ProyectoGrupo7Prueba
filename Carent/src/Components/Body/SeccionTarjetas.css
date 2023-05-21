@@ -1,0 +1,12 @@
+.card-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-columns > div {
+  flex-basis: 24%;
+}
+
+.card-columns h2 {
+  text-align: center;
+}
