@@ -1,14 +1,20 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
   return (
     <header className="sticky-header">
-      <div className="logo">Logo</div>
+      <Link to="/">
+        <div className="logo">Logo</div>
+      </Link>
       <nav className="nav">
+        <Link to="/RegistrarUsuario">
+          <button className="nav-button">Registrar Usuario</button>
+        </Link>
+        <Link to="/CrearProducto">
+          <button className="nav-button">Registrar Producto</button>
+        </Link>
         <button className="nav-button">Iniciar Sesión</button>
-        <button className="nav-button">Registrar Producto</button>
-        <button className="nav-button">Registrar Usuario</button>
       </nav>
     </header>
   );
